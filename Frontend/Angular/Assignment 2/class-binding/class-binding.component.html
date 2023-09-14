@@ -1,0 +1,13 @@
+<p>class-binding works!</p>
+<h3>Assignment 1</h3>
+<h1 [class.toogle-button]="isClicked"> Class Binding</h1>
+<button (click)="toggleStyle()">Button</button>
+<hr>
+<h3>Assignment 2</h3>
+<input #data type="text" placeholder="Type Something"><br>
+<button (click)="sendData(data.value)">Send</button>
+<h3>Assignment 3</h3>
+<h4>Prime Or Not</h4>
+<input #num type="number" placeholder="Type Any Number"><br>
+<button (click)="isPrimeOrNot(num.value)">Check</button>
+<h2>{{primeMessage}}</h2>
